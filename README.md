@@ -39,10 +39,10 @@ mvn spring-boot:run
 4. Remove Friend
 5. Friends for a user at a given distance K
 
-## Local TO AWSDB 
+## Local instance TO AWSDB 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/808e2d503213bfcc9413)
 
-## AWS EC2 to AWSDB
+## AWS EC2 instance to AWSDB
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/921572692da414a1b720)
 
 Please go through the postman collection documentaion for details.
