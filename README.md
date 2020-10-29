@@ -19,9 +19,9 @@ BitBucket URL: https://bitbucket.org/jainesh001/version1
 
 ## Running the application locally
 
-To run a Spring Boot application on your local machine. Import the project from pom.xml and One way is to execute the `main` method in the `de.codecentric.springbootsample.Application` class from your IDE.
+*To run a Spring Boot application on your local machine. Import the project from pom.xml and One way is to execute the `main` method in the `com.wjsbMFD.mutualFriendDistance.MutualFriendDistanceApplication;` class from your IDE.
 
-Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so: If you dont have maven use mvnw instead mvn
+*Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so: If you dont have maven use mvnw instead mvn
 
 ```shell
 mvn package
@@ -35,12 +35,12 @@ or
 ```shell
 mvn spring-boot:run
 ```
-Local access URL: http://localhost:5000/mutualFriendDistance/api/  
+*Local access URL: http://localhost:5000/mutualFriendDistance/api/  
 [for more api Please refer postman api collection for url]
 
 ## Using the AWS EC2 instance
 
-AWS URL: ec2-15-207-123-29.ap-south-1.compute.amazonaws.com/mutualFriendDistance/api/ 
+*AWS URL: ec2-15-207-123-29.ap-south-1.compute.amazonaws.com/mutualFriendDistance/api/ 
 [for more api Please refer postman api collection for url]
 
 
