@@ -28,30 +28,32 @@ mvn package
 ```
 *Locate jar from target and run jar 
 ```shell
-[java -jar mutualFriendDistance-0.0.1-SNAPSHOT.jar]
+java -jar mutualFriendDistance-0.0.1-SNAPSHOT.jar
 ```
 or
 
 ```shell
 mvn spring-boot:run
 ```
-Local access URL: http://localhost:5000/mutualFriendDistance/api/  [for more api Please refer postman api collection for url]
+Local access URL: http://localhost:5000/mutualFriendDistance/api/  
+[for more api Please refer postman api collection for url]
 
 ## Using the AWS EC2 instance
 
-AWS URL: ec2-15-207-123-29.ap-south-1.compute.amazonaws.com/mutualFriendDistance/api/[for more api Please refer postman api collection for url]
+AWS URL: ec2-15-207-123-29.ap-south-1.compute.amazonaws.com/mutualFriendDistance/api/ 
+[for more api Please refer postman api collection for url]
 
 
 ## Database connection step to verfiy the result
 
 *Requirement- MySQL Workbench or Dbever [Any sql client connector]
-Hostname: aa1fc24j8xq84z4.cocydytlfhue.ap-south-1.rds.amazonaws.com
-port: 3306
-password: ASTRO001
+*Hostname: aa1fc24j8xq84z4.cocydytlfhue.ap-south-1.rds.amazonaws.com
+*port: 3306
+*password: ASTRO001
 [Local and EC2 instance both pointing to AWS DB]
 
 After successful login
-Database name: ebdb
-tables : users,friends
+*Database name: ebdb
+*tables : users,friends
 [please refer attach AWS setup quriers file for saved queries for reference]
 
