@@ -27,13 +27,25 @@ or
 mvn spring-boot:run
 ```
 *Local access URL: http://localhost:5000/mutualFriendDistance/api/  
-[for more api Please refer postman api collection for url]
 
 ## Using the AWS EC2 instance
 
 *AWS URL: ec2-15-207-123-29.ap-south-1.compute.amazonaws.com/mutualFriendDistance/api/ 
 
-[for more api Please refer postman api collection for url]
+## Please refer postman api collection for addition API local and aws instace
+1. Create User
+2. Add Friend
+3. All friends for user
+4. Remove Friend
+5. Friends for a user at a given distance K
+
+## Local TO AWSDB 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/808e2d503213bfcc9413)
+
+## AWS EC2 to AWSDB
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/921572692da414a1b720)
+
+Please go through the postman collection documentaion for details.
 
 ## Database connection step to verfiy the result
 
@@ -51,4 +63,6 @@ After successful login
 Database name: ebdb  table names : users,friends 
 
 [please refer attach AWS setup quriers file for saved queries for reference]
+
+[Click here for Reference Table setup and queries](https://drive.google.com/file/d/1u_w9ujwzoDmkwx7PF_HaOx8E7q0nvd8F/view?usp=sharing)
 
